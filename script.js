@@ -1,74 +1,74 @@
-// 1. Gezegen Verileri (JSON Obje Yapısı) - ARTIK YEREL DOSYA YOLLARI KULLANILIYOR
+// 1. Gezegen Verileri (JSON Obje Yapısı) - YEREL DOSYA YOLU: "images/" KLASÖRÜ KALDIRILDI
 const planets = {
     gunes: {
         name: "GÜNEŞ",
         desc: "Güneş Sistemi'nin kütle merkezidir ve enerji kaynağıdır. Yüksek ısıda plazmadan oluşur.",
         temp: "5500°C", 
         gravity: 27.9, 
-        img: "images/gunes.jpg" 
+        img: "gunes.jpg" // Düzeltildi: images/gunes.jpg -> gunes.jpg
     },
     merkur: {
         name: "MERKÜR",
         desc: "Güneş'e en yakın ve en küçük gezegendir. Uydusu yoktur ve yüzeyi kraterlerle doludur.",
         temp: "167°C",
         gravity: 0.38,
-        img: "images/merkur.jpg" 
+        img: "merkur.jpg" // Düzeltildi
     },
     venus: {
         name: "VENÜS",
         desc: "Karbondioksitli yoğun atmosferi nedeniyle en sıcak gezegendir. Sabah ve Akşam Yıldızı olarak da bilinir.",
         temp: "464°C",
         gravity: 0.91,
-        img: "images/venus.jpg"
+        img: "venus.jpg" // Düzeltildi
     },
     dunya: {
         name: "DÜNYA",
         desc: "Üzerinde yaşam olduğu bilinen tek gezegendir. %71'i sularla kaplıdır.",
         temp: "14°C",
         gravity: 1, 
-        img: "images/dunya.jpg" 
+        img: "dunya.jpg" // Düzeltildi
     },
     ay: {
         name: "AY",
         desc: "Dünya'nın doğal uydusu. Dünya'daki gelgit olaylarında büyük rol oynar.",
         temp: "-20°C",
         gravity: 0.166,
-        img: "images/ay.jpg" 
+        img: "ay.jpg" // Düzeltildi
     },
     mars: {
         name: "MARS",
         desc: "Kızıl Gezegen olarak bilinir. İnce atmosferi ve devasa volkanları vardır.",
         temp: "-63°C",
         gravity: 0.38,
-        img: "images/mars.jpg" 
+        img: "mars.jpg" // Düzeltildi
     },
     jupiter: {
         name: "JÜPİTER",
         desc: "Güneş sisteminin en büyük gaz devi. Büyük Kırmızı Leke adı verilen kalıcı bir fırtınaya sahiptir.",
         temp: "-108°C",
         gravity: 2.4,
-        img: "images/jupiter.jpg" 
+        img: "jupiter.jpg" // Düzeltildi
     },
     saturn: {
         name: "SATÜRN",
         desc: "Buz ve kayalardan oluşan devasa halka sistemiyle ünlüdür. Yoğunluğu sudan düşüktür.",
         temp: "-139°C",
         gravity: 1.06,
-        img: "images/saturn.jpg" 
+        img: "saturn.jpg" // Düzeltildi
     },
     uranus: {
         name: "URANÜS",
         desc: "Buz devidir ve ekseni neredeyse yan yatmış durumdadır. Mavi-yeşil rengini metan gazına borçludur.",
         temp: "-195°C",
         gravity: 0.9,
-        img: "images/uranus.jpg" 
+        img: "uranus.jpg" // Düzeltildi
     },
     neptun: {
         name: "NEPTÜN",
         desc: "Güneş'e en uzak gezegendir. Güneş Sistemindeki en hızlı rüzgarlara sahiptir.",
         temp: "-201°C",
         gravity: 1.14,
-        img: "images/neptun.jpg" 
+        img: "neptun.jpg" // Düzeltildi
     }
 };
 
