@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarXplorer Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="stars"></div> 
+
+    <div class="container">
+        <div class="sidebar">
+            <button class="planet-btn active" onclick="changePlanet('gunes')">Güneş</button>
+            <button class="planet-btn" onclick="changePlanet('merkur')">Merkür</button>
+            <button class="planet-btn" onclick="changePlanet('venus')">Venüs</button>
+            <button class="planet-btn" onclick="changePlanet('dunya')">Dünya</button>
+            <button class="planet-btn" onclick="changePlanet('ay')">Ay</button>
+            <button class="planet-btn" onclick="changePlanet('mars')">Mars</button>
+            <button class="planet-btn" onclick="changePlanet('jupiter')">Jüpiter</button>
+            <button class="planet-btn" onclick="changePlanet('saturn')">Satürn</button>
+            <button class="planet-btn" onclick="changePlanet('uranus')">Uranüs</button>
+            <button class="planet-btn" onclick="changePlanet('neptun')">Neptün</button>
+        </div>
+
+        <div class="content">
+            <img id="planet-img" src="https://svs.gsfc.nasa.gov/vis/a010000/a010900/a010931/sun_4k.jpg" alt="Gezegen">
+            
+            <h1 id="planet-name">GÜNEŞ</h1>
+            <p id="planet-desc">Güneş Sistemi'nin kütle merkezidir ve enerji kaynağıdır. Yüksek ısıda plazmadan oluşur.</p>
+
+            <div class="stats">
+                <div class="stat-box">
+                    <span>Sıcaklık</span>
+                    <strong id="planet-temp">5500°C</strong>
+                </div>
+                <div class="stat-box">
+                    <span>Yerçekimi (x Dünya)</span>
+                    <strong id="planet-gravity">27.9</strong>
+                </div>
+            </div>
+
+            <div class="calculator">
+                <input type="number" id="user-weight" placeholder="Kilonuzu girin (kg)" oninput="calculateWeight()">
+                <div id="result">Bu gök cismindeki kilonuz: -- kg</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
